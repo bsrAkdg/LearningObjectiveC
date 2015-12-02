@@ -13,6 +13,7 @@
 @property (strong, nonatomic) IBOutlet UIPickerView *myPicker;
 @property NSArray *arr1;
 @property NSArray *arr2;
+- (IBAction)reloadPickerView:(id)sender;
 
 @end
 
