@@ -10,13 +10,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PickerViewApp/ViewController.m"
-            timestampString = "470679216.894308"
+            timestampString = "470736936.741196"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PickerViewApp/ViewController.h"
+            timestampString = "470738252.009122"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
