@@ -1,0 +1,22 @@
+Base class : UIDynamicBehavior
+
+1.UIGravityBehavior: Öğenin tanımlanan yönde taşınmasını sağlar.
+2.UICollisionBehavior: İki birbirine göre görünürlüğü ve çarpışma durumunu belirler.
+3.UIPushBehavior: Öğeye bir hız verir. Adı gibi itelemeyi sağlar.
+4.UISnapBehavior: Durma noktasına kadar öğelerin çalkalanmasını sağlar. (Çeşitli şekillerde özelleştirilebilir.)
+5.UIAttachmentBehavior: dinamik öğelerin sabitleme noktasına nasıl bağlandığını tanımlar.
+
+UIDynamicItemBehavior
+1. elasticity : dinamik öğeler için çarpışma elastite miktarı. ( @property(readwrite, nonatomic) CGFloat elasticity )
+tamamen esnek çarpışma için 1.0, geçerli aralıkta çarpışma olmaması için 0.0.
+
+2. density : kütle yoğunluğuna göre davranış. ( @property(readwrite, nonatomic) CGFloat density )
+
+3. resistance : zamanla lineer hızı azaltır. (@property(readwrite, nonatomic) CGFloat resistance )
+
+4. angularResistance: : bir önceki özelliği açısal olarak ele alır. Açısal olarak lineer hızı azaltırç ( @property(readwrite, nonatomic) CGFloat angularResistance )
+
+5. friction : birbirine karşı iki dinamik öğenin direncini tanımlar.
+
+6. allowsRotation: dinamik bir öğeyi döndürür. ( @property(readwrite, nonatomic) BOOL allowsRotation )
+
