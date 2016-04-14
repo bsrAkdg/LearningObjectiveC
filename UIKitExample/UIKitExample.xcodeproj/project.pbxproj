@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		200B517A1CBF991C00422DE1 /* AlertComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 200B51791CBF991C00422DE1 /* AlertComponent.m */; };
+		200B517D1CBF993A00422DE1 /* AlertPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 200B517C1CBF993A00422DE1 /* AlertPage.m */; };
 		20DE7C211CBE3FF800C5AA9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DE7C201CBE3FF800C5AA9C /* main.m */; };
 		20DE7C241CBE3FF800C5AA9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DE7C231CBE3FF800C5AA9C /* AppDelegate.m */; };
 		20DE7C2A1CBE3FF800C5AA9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DE7C281CBE3FF800C5AA9C /* Main.storyboard */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		200B51781CBF991C00422DE1 /* AlertComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertComponent.h; sourceTree = "<group>"; };
+		200B51791CBF991C00422DE1 /* AlertComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertComponent.m; sourceTree = "<group>"; };
+		200B517B1CBF993A00422DE1 /* AlertPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertPage.h; sourceTree = "<group>"; };
+		200B517C1CBF993A00422DE1 /* AlertPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertPage.m; sourceTree = "<group>"; };
 		20DE7C1C1CBE3FF800C5AA9C /* UIKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DE7C201CBE3FF800C5AA9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20DE7C221CBE3FF800C5AA9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +89,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		200B51761CBF98D700422DE1 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				20DE7C521CBE437B00C5AA9C /* MenuComponent.h */,
+				20DE7C531CBE437B00C5AA9C /* MenuComponent.m */,
+				20DE7C581CBE71C100C5AA9C /* MainPage.h */,
+				20DE7C591CBE71C100C5AA9C /* MainPage.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		200B51771CBF98F500422DE1 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				200B51781CBF991C00422DE1 /* AlertComponent.h */,
+				200B51791CBF991C00422DE1 /* AlertComponent.m */,
+				200B517B1CBF993A00422DE1 /* AlertPage.h */,
+				200B517C1CBF993A00422DE1 /* AlertPage.m */,
+			);
+			name = Alert;
+			sourceTree = "<group>";
+		};
 		20DE7C131CBE3FF800C5AA9C = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +134,8 @@
 		20DE7C1E1CBE3FF800C5AA9C /* UIKitExample */ = {
 			isa = PBXGroup;
 			children = (
+				200B51771CBF98F500422DE1 /* Alert */,
+				200B51761CBF98D700422DE1 /* Menu */,
 				20DE7C5B1CBE73E000C5AA9C /* interface.png */,
 				20DE7C221CBE3FF800C5AA9C /* AppDelegate.h */,
 				20DE7C231CBE3FF800C5AA9C /* AppDelegate.m */,
@@ -114,10 +144,6 @@
 				20DE7C2D1CBE3FF800C5AA9C /* LaunchScreen.storyboard */,
 				20DE7C301CBE3FF800C5AA9C /* Info.plist */,
 				20DE7C1F1CBE3FF800C5AA9C /* Supporting Files */,
-				20DE7C521CBE437B00C5AA9C /* MenuComponent.h */,
-				20DE7C531CBE437B00C5AA9C /* MenuComponent.m */,
-				20DE7C581CBE71C100C5AA9C /* MainPage.h */,
-				20DE7C591CBE71C100C5AA9C /* MainPage.m */,
 			);
 			path = UIKitExample;
 			sourceTree = "<group>";
@@ -281,7 +307,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				20DE7C241CBE3FF800C5AA9C /* AppDelegate.m in Sources */,
+				200B517A1CBF991C00422DE1 /* AlertComponent.m in Sources */,
 				20DE7C541CBE437B00C5AA9C /* MenuComponent.m in Sources */,
+				200B517D1CBF993A00422DE1 /* AlertPage.m in Sources */,
 				20DE7C211CBE3FF800C5AA9C /* main.m in Sources */,
 				20DE7C5A1CBE71C100C5AA9C /* MainPage.m in Sources */,
 			);
@@ -513,6 +541,7 @@
 				20DE7C4B1CBE3FF900C5AA9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20DE7C4C1CBE3FF900C5AA9C /* Build configuration list for PBXNativeTarget "UIKitExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +550,7 @@
 				20DE7C4E1CBE3FF900C5AA9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20DE7C4F1CBE3FF900C5AA9C /* Build configuration list for PBXNativeTarget "UIKitExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +559,7 @@
 				20DE7C511CBE3FF900C5AA9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
